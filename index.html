@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>BlackJack</h1>
+        <h3><span id='blackjack-result'>Let's Play</span></h3>
+        <div class="flex-row1">
+            <div id="your-box">
+                <h2>You: <span id='your-result'>0</span></h2>
+            </div>
+            <div id="dealer-box"><h2>Dealer: <span id='dealer-result'>0</span></h2></div>
+        </div>
+        <div class="flex-row2">
+            <div id="actions">
+                <button class='btn' id="b1">Hit</button>
+                <button class='btn' id="b2">Stand</button>
+                <button class='btn' id="b3">Deal</button>
+            </div>
+        </div>
+        <div class="flex-row3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><span id='wins'>0</span></td>
+                        <td><span id='losses'>0</span></td>
+                        <td><span id='draws'>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

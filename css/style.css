@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    text-align: center;
+    border: 1px solid black;
+    width: 75%;
+    /* height: 100vh; */
+    margin: 0 auto;
+    /* padding: 0; */
+    background-color: #6eb978;
+}
+
+.container h1{
+    font-family: 'Satisfy', cursive;
+    color: rgb(255,215,0);
+}
+
+.flex-row1, .flex-row2, .flex-row3{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    /* margin-left: 0px; */
+}
+/* .flex-row2{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+    background: url('../images/istockphoto-510657755-612x612.jpg');
+} */
+
+.flex-row1, .flex-row2{
+    background: url('../images/download.jpg') no-repeat center center/cover;
+}
+.flex-row1 img{
+    width: 18%;
+    padding: 12px;
+}
+#your-box img, #dealer-box img{
+    height: 146.73px;
+}
+#your-box, #dealer-box{
+    overflow: hidden;
+}
+.flex-row1 div{
+    border: 2px solid black;
+    height: 350px;
+    padding: 10px;
+    /* max-height: 100%; */
+    flex: 1;
+    text-align: center;
+}
+.flex-row2 div{
+    border: 2px solid black;
+    padding: 10px;
+    
+    
+}
+
+.btn{
+    padding: 10px 14px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    /* background-color: black; */
+}
+#b1:hover{
+    background-color: rgb(4, 58, 158);
+}
+#b2:hover{
+    background-color: rgb(184, 184, 5);
+}
+#b3:hover{
+    background-color: rgb(151, 1, 1);
+}
+#b1{
+    background-color: rgb(21, 92, 223);
+    margin-right: 5px;
+}
+#b2{
+    background-color: rgb(245, 245, 17);
+    color: black;
+    margin-right: 5px;
+}
+#b3{
+    background-color: rgb(209, 12, 12);
+}
+
+h2{
+    color: white;
+}
+
+table,th, td {
+    border: 1px solid black;
+    
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 5px;
+
+    margin: 0;
+}
+th{
+    padding: 5px;
+    margin: 0;
+}
+td{
+    padding: 5px;
+    margin: 0;
+}
